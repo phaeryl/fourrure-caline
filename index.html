@@ -19,7 +19,7 @@
   <nav class="container">
         <div id="container-links">
             <img src="images/menu.svg" class="svg" alt="menu">
-            <a href="#"><img src="images/logo.png" class="logo" id="nav-logo" alt=""></a>
+            <a href="#" id="logo-link"><img src="images/logo.png" class="logo" id="nav-logo" alt=""></a>
             <img src="images/search.svg" class="svg" alt="search">
             <img src="images/bag.svg" class="svg" alt="cart">
             <a href="#" class="mobile-hidden active-nav-link">Accueil</a>
@@ -34,11 +34,14 @@
         <div id="container-hero">
             <div id="hero-image">
                 <div id="hero-content">
-                    <h1>
-                        <small>Des peluches cousues avec amour depuis 1983 </small> <br/>
-                        La Fourrure Câline
+                    <h1> 
+                        <!-- TODO pour la fin : mettre "La fourrure caline" dans un span, avec un margin bottom, un display block + changer la police en DomaineDisplayNarrow -->
+                        <span id="hero-first-line">
+                            La Fourrure Câline 
+                        </span></br>
+                        <small>Des peluches cousues avec amour depuis 1983 </small>
                     </h1>
-                    <button type="button" id="hero-CTA"><span>Voir notre collection</span></button>
+                    <button type="button" id="hero-CTA">Voir notre collection</button>
                 </div>
             </div>
         </div>
@@ -80,11 +83,12 @@
                             dolorum tenetur obcaecati, impedit dignissimos voluptatibus quas,
                             cupiditate officiis consectetur nostrum
                         </p>
-                        <button type="button" class="product-CTA"><span>Ajouter au
-                                panier</span></button>
+                        <button type="button" class="product-CTA">Ajouter au
+                                panier</button>
                         
-                         <button type="button" class="product-info"><span>En savoir
-                        plus</span></button>
+                        <button type="button" class="product-info">En savoir
+                        plus</button>
+
                         
                     </div>
                 </div>
@@ -101,10 +105,10 @@
                             dolorum tenetur obcaecati, impedit dignissimos voluptatibus quas,
                             cupiditate officiis consectetur nostrum
                         </p>
-                        <button type="button" class="product-CTA"><span>Ajouter au
-                                panier</span></button>
-                        <button type="button" class="product-info"><span>En savoir
-                                plus</span></button>
+                        <button type="button" class="product-CTA">Ajouter au
+                                panier</button>
+                        <button type="button" class="product-info">En savoir
+                                plus</button>
                     </div>
                 </div>
             </article>
@@ -119,10 +123,10 @@
                             dolorum tenetur obcaecati, impedit dignissimos voluptatibus quas,
                             cupiditate officiis consectetur nostrum
                         </p>
-                        <button type="button" class="product-CTA"><span>Ajouter au
-                                panier</span></button>
-                        <button type="button" class="product-info"><span>En savoir
-                                plus</span></button>
+                        <button type="button" class="product-CTA">Ajouter au
+                                panier</button>
+                        <button type="button" class="product-info">En savoir
+                                plus</button>
                     </div>
                 </div>
             </article>
@@ -134,10 +138,9 @@
             <div id="promotion-image">
                 <div id="promotion-content">
                     <p>
-                        Envie de mieux connaître nos <strong>peluches</strong> ou nos
-                        <strong>artisans</strong>? Ne manquez rien en vous inscrivant à la
-                        newsletter de <strong>la Fourrure Câline</strong> ! </p>
-                    <button id="promotion-CTA">S'inscrire</button>
+                        Bénéficiez d'une réduction de 20% sur les commandes de <strong>peluches</strong> personnalisées !
+                    </p>
+                    <button id="promotion-CTA">En profiter</button>
                 </div>
             </div>
         </div>

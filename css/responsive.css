@@ -18,11 +18,7 @@
         padding-left: 0;
         margin-right: 5%;
     }
-    /* HEADER */
-    #hero-image {
-        height: 400px;
-    }
-    /* PROMOTION*/
+
 }
 
 
@@ -48,11 +44,9 @@
     }
     /* HEADER */
     #hero-image {
-        height: 500px;
+        height: 400px;
     }
-    #hero-CTA {
-        top: 140px;
-    }
+
     h1 {
         font-size: 2rem;
     }
@@ -110,11 +104,9 @@
     }
     /* HEADER */
     #hero-image {
-        height: 600px;
+        height: 450px;
     }
-    #hero-CTA {
-        top: 190px;
-    }
+
     /* PRODUCT ROW */
     article {
         margin-right: 2%;
